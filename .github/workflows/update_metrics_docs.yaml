@@ -1,8 +1,9 @@
 name: Auto-Update Metrics Documentation
 
 on:
-  schedule:
-    - cron:  '0 5 * * *'
+  # schedule:
+  #   - cron:  '0 5 * * *'
+  push:
 
 jobs:
   update_metrics_docs:
